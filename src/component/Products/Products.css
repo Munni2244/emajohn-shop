@@ -1,0 +1,15 @@
+.products{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    margin: 20px;
+}
+.details{
+    margin: 10px;
+}
+.button{
+    width: 190px;
+    height: 28px;
+    background-color: rgb(248, 191, 3);
+    border: 1px solid gray;
+    border-radius: 5px;
+}

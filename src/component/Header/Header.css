@@ -1,0 +1,21 @@
+.logo-div{
+    text-align: center;
+}
+.logo{
+    width: 200px;
+    margin: 20px;
+}
+.navbar{
+    background-color: black;
+    line-height: 40px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin-left:40px;
+    padding: 10px;
+}
+.navbar a:hover{
+    background-color: rgba(255, 255, 255, 0.384);
+}
