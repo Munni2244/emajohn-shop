@@ -4,6 +4,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
+            <div>
            <div className="logo-div">
            <img className="logo" src={logo} alt="" />
            </div>
@@ -13,6 +14,7 @@ const Header = () => {
             <a href="/manage">Managment</a>
             
         </nav>
+        </div>
         </div>
     );
 };

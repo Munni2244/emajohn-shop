@@ -9,3 +9,14 @@
     margin-left: 60px;
     margin-right: 5px;
 }
+
+.search-container{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.932);
+
+}
+.inputField{
+    width: 60%;
+    padding: 8px;
+    margin: 10px;
+}
