@@ -1,8 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import useAuth from '../../Hooks/UseAuth';
 import logo from '../../images/logo.png'
 import './Header.css'
 const Header = () => {
+    const {user, LogOut}=useAuth();
     return (
         <div>
             <div>
@@ -13,6 +15,12 @@ const Header = () => {
             <NavLink to="/shop"> Shop</NavLink>
             <NavLink to="/order"> Order</NavLink>
             <NavLink to="/management">Managment</NavLink>
+            <span style={{color:'white'}}>{user.displayName}</span>
+            {user.displayName?
+            <button onClick={LogOut}> Log Out</button>:
+               <NavLink to="/login">Login</NavLink>
+
+            }            
             
         </nav>
         </div>

@@ -19,9 +19,9 @@ const Order = () => {
 }
 
 const OrderHandler=()=>{
-  history.push('/placeorder')
-setCart([]);
-clearTheCart()
+  history.push('/shipping')
+// setCart([]);
+// clearTheCart()
 }
 
     return (
